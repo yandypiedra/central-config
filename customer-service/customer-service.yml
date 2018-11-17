@@ -6,9 +6,6 @@ server:
   port: ${port:8080}
 
 spring:
-  cloud:
-    config:
-      enabled: true
   rabbitmq:
     host: localhost
     port: 5672
