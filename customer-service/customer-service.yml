@@ -1,6 +1,6 @@
 management:
   security:
-    enabled: true
+    enabled: false
 
 server:
   port: ${port:8080}
