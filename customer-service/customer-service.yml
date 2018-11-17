@@ -22,4 +22,4 @@ eureka:
       register-with-eureka: true
       fetch-registry: true
       service-url:
-        default-zone: ${${EUREKA_DEFAULT_ZONE_URL:http://localhost:8761/eureka}
+        default-zone: ${EUREKA_DEFAULT_ZONE_URL:http://localhost:8761/eureka}
